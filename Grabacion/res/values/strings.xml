@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grabacion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empezar">Empezar Grabacion</string><string name="estado">Estado</string><string name="grabar">Grabar</string><string name="detener">Detener Grabación</string><string name="reproducir">Reproducir Grabacion</string><string name="action_settings">Settings</string>
+    
+    
+    
+    
+    
+
+</resources>

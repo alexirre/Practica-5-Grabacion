@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/reproducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/detener"
+        android:layout_alignBottom="@+id/detener"
+        android:layout_toRightOf="@+id/estado"
+        android:onClick="reproducir"
+        android:text="@string/reproducir" />
+
+    <Button
+        android:id="@+id/grabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/estado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:onClick="grabar"
+        android:text="@string/grabar" />
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:text="@string/estado" />
+
+    <Button
+        android:id="@+id/detener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grabar"
+        android:layout_marginTop="51dp"
+        android:layout_toLeftOf="@+id/estado"
+        android:onClick="detener"
+        android:text="@string/detener" />
+
+</RelativeLayout>
